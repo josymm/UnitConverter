@@ -37,7 +37,7 @@ body #header-container #input-number {
   font-size: 1.6rem;
   color: #F4F4F4;
 }
-body #header-container #convert-btn {
+body #convert-btn {
   padding: 0.4rem;
   border-radius: 5px;
   border: none;
@@ -45,7 +45,8 @@ body #header-container #convert-btn {
   color: #171515;
   font-weight: 800;
 }
-body #measures-container {
+
+#measures-container {
   background-color: #F4F4F4;
   min-height: 55vh;
   margin: 0 2rem 2rem 2rem;
@@ -54,12 +55,12 @@ body #measures-container {
   justify-content: center;
   align-items: center;
 }
-body #measures-container .measures {
+#measures-container .measures {
   color: #F59E0B;
   font-weight: 800;
   padding: 2rem;
 }
-body #measures-container .result {
+#measures-container .result {
   text-align: center;
   font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
