@@ -1,9 +1,7 @@
 $color1: #F59E0B;
-;
 $color2: #F4F4F4;
-;
 $color3: #171515;
-;
+
 
 $font: 'Inter', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@300&family=Karla&family=Manrope:wght@300&family=Maven+Pro&family=Raleway:wght@300&display=swap');
@@ -48,6 +46,7 @@ body {
             font-weight: 800;
             font-size: 1.6rem;
             color: $color2;
+            appearance: none;
 
         }
 
