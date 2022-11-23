@@ -1,0 +1,87 @@
+$color1: #F59E0B;
+;
+$color2: #F4F4F4;
+;
+$color3: #171515;
+;
+
+$font: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@300&family=Karla&family=Manrope:wght@300&family=Maven+Pro&family=Raleway:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font;
+    background-color: $color3;
+    
+
+    #header-container{
+        background-color: $color1;
+        min-height: 35vh;
+        margin: 2rem 2rem 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.2rem;
+        
+        #header {
+            color: $color2;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        #input-number{
+            background-color: $color1;
+            width: 4rem;
+            height: 3rem;
+            border: 1px solid #FBBF24;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-family: $font;
+            font-weight: 800;
+            font-size: 1.6rem;
+            color: $color2;
+
+        }
+
+        #convert-btn {
+           padding: 0.4rem;
+           border-radius: 5px;
+           border: none;
+           font-family: $font;
+           color: $color3;
+           font-weight: 800;
+        }
+    }
+
+    #measures-container {
+        background-color: $color2;
+        min-height: 55vh;
+        margin: 0 2rem 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+        
+
+        .measures {
+            color: $color1;
+            font-weight: 800;
+            padding: 2rem;
+        }
+
+        .result {
+            text-align: center;
+            font-size: 0.7rem;
+        }
+
+    }
+}

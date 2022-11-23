@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@300&family=Karla&family=Manrope:wght@300&family=Maven+Pro&family=Raleway:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #171515;
+}
+body #header-container {
+  background-color: #F59E0B;
+  min-height: 35vh;
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.2rem;
+}
+body #header-container #header {
+  color: #F4F4F4;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+body #header-container #input-number {
+  background-color: #F59E0B;
+  width: 4rem;
+  height: 3rem;
+  border: 1px solid #FBBF24;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #F4F4F4;
+}
+body #header-container #convert-btn {
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: #171515;
+  font-weight: 800;
+}
+body #measures-container {
+  background-color: #F4F4F4;
+  min-height: 55vh;
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #measures-container .measures {
+  color: #F59E0B;
+  font-weight: 800;
+  padding: 2rem;
+}
+body #measures-container .result {
+  text-align: center;
+  font-size: 0.7rem;
+}/*# sourceMappingURL=style.css.map */
