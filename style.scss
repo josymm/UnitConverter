@@ -15,6 +15,7 @@ $font: 'Inter', sans-serif;
 body {
     font-family: $font;
     background-color: $color3;
+    overflow-y: hidden;
     
 
     #header-container{
@@ -27,6 +28,7 @@ body {
         align-items: center;
         text-align: center;
         padding: 0.2rem;
+        border-radius: 0.4rem 0.4rem 0 0;
         
         #header {
             color: $color2;
@@ -63,18 +65,21 @@ body {
     #measures-container {
         background-color: $color2;
         min-height: 55vh;
-        margin: 0 2rem 2rem 2rem;
+        margin: 0 2rem 3rem 2rem;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content:flex-start;
         align-items: center;
+        border-radius: 0 0 0.4rem 0.4rem;
+        
         
         
 
         .measures {
             color: $color1;
             font-weight: 800;
-            padding: 2rem;
+            padding: 1.2rem;
+            margin-top: 2rem;
         }
 
         .result {
