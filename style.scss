@@ -64,13 +64,15 @@ body {
 
     #measures-container {
         background-color: $color2;
-        min-height: 55vh;
-        margin: 0 2rem 3rem 2rem;
+        min-height: 50vh;
+        margin: 0 2rem 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
         align-items: center;
         border-radius: 0 0 0.4rem 0.4rem;
+        padding: 0.8rem;
+        
         
         
         
@@ -78,13 +80,14 @@ body {
         .measures {
             color: $color1;
             font-weight: 800;
-            padding: 1.2rem;
+            padding: 1rem;
             margin-top: 2rem;
         }
 
         .result {
             text-align: center;
             font-size: 0.7rem;
+            
         }
 
     }
