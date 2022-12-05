@@ -91,3 +91,11 @@ body {
         }
 
     }
+
+
+    @media all and (max-width: 480px) {
+        #measures-container {
+            max-width: 45vh;
+        }
+
+    }

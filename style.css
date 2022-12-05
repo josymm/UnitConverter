@@ -68,4 +68,10 @@ body #convert-btn {
 #measures-container .result {
   text-align: center;
   font-size: 0.7rem;
+}
+
+@media all and (max-width: 480px) {
+  #measures-container {
+    max-width: 45vh;
+  }
 }/*# sourceMappingURL=style.css.map */
