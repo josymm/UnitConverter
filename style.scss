@@ -71,7 +71,7 @@ body {
         justify-content:center;
         align-items: center;
         border-radius: 0 0 0.4rem 0.4rem;
-        padding: 0 1rem 1rem 1rem;
+        padding: 0 1rem;
         
         
         
@@ -92,4 +92,10 @@ body {
     }
 
 
-   
+   @media all and (max-width: 468px) {
+    #measures-container {
+    .result {
+        font-size: 0.5rem;
+        }
+    }   
+   }
