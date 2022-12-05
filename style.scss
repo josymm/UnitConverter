@@ -64,13 +64,14 @@ body {
 
     #measures-container {
         background-color: $color2;
+        min-height: 40vh;
         margin: 0 2rem 2rem 2rem;
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content:center;
         align-items: center;
         border-radius: 0 0 0.4rem 0.4rem;
-        padding: 0 3rem 3rem 3rem;
+        padding: 0 1rem 1rem 1rem;
         
         
         
@@ -80,7 +81,6 @@ body {
             color: $color1;
             font-weight: 800;
             padding: 1rem;
-            margin-top: 2rem;
         }
 
         .result {
@@ -92,4 +92,4 @@ body {
     }
 
 
-    
+   
