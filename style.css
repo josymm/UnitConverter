@@ -50,14 +50,13 @@ body #convert-btn {
 
 #measures-container {
   background-color: #F4F4F4;
-  min-height: 50vh;
   margin: 0 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 0 0 0.4rem 0.4rem;
-  padding: 0.8rem;
+  padding: 0 3rem 3rem 3rem;
 }
 #measures-container .measures {
   color: #F59E0B;
@@ -68,10 +67,4 @@ body #convert-btn {
 #measures-container .result {
   text-align: center;
   font-size: 0.7rem;
-}
-
-@media all and (max-width: 480px) {
-  #measures-container {
-    max-width: 45vh;
-  }
 }/*# sourceMappingURL=style.css.map */

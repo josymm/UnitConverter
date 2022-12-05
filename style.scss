@@ -64,14 +64,13 @@ body {
 
     #measures-container {
         background-color: $color2;
-        min-height: 50vh;
         margin: 0 2rem 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
         align-items: center;
         border-radius: 0 0 0.4rem 0.4rem;
-        padding: 0.8rem;
+        padding: 0 3rem 3rem 3rem;
         
         
         
@@ -93,9 +92,4 @@ body {
     }
 
 
-    @media all and (max-width: 480px) {
-        #measures-container {
-            max-width: 45vh;
-        }
-
-    }
+    
